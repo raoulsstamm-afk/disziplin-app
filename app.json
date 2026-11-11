@@ -50,7 +50,14 @@
       "policy": "appVersion"
     },
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "6bb5e675-057c-4bd0-8cb1-d81f5eadc999"
+      }
+    },
+    "owner": "raoul1998",
+    "updates": {
+      "url": "https://u.expo.dev/6bb5e675-057c-4bd0-8cb1-d81f5eadc999"
     }
   }
 }
