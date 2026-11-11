@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Disziplin (Arbeitstitel)",
+    "slug": "disziplin-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#15131F",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.raoulstamm.disziplinapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.raoulstamm.disziplinapp",
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#15131F"
+        }
+      ],
+      "expo-status-bar",
+      [
+        "expo-notifications",
+        {
+          "color": "#9CC4FF"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Für deinen Foto-Beweis: Du fotografierst, was du erledigt hast. Die Fotos bleiben nur auf deinem Handy.",
+          "photosPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "scheme": "disziplinapp",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "router": {}
+    }
+  }
+}
